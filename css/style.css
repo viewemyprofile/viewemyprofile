@@ -422,7 +422,7 @@ ul.social-list li a.tw{
 	text-decoration:none;
 }
 .foot-nav ul li a:hover, .foot-nav ul li p a:hover{
-	color:#c2bfff;
+	background:url(../images/banner.jpg)no-repeat;
 	transition:0.5s all;
 }
 /*-- Footer Part Ends Here --*/
