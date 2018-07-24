@@ -468,11 +468,11 @@ ul.social-list li a.tw{
 @media(max-width:768px){
 	.col-md-4.iphone {
 		width: 30%;
-		float: left;
+		float: right;
 	}
 	.col-md-8.header-matter {
 		width: 70%;
-		float: left;
+		float: right;
 	}
 	.logo {
 		margin: 3em 0 2em 0;
