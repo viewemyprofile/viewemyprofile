@@ -62,74 +62,8 @@ jQuery(document).ready(function($) {
 	</div>
 
 </div>
-<!-- Header Part ENds Here -->
-<!-- Graph Part Starts Here -->
-<div class="graph wow fadeInUp animated">
-	<div class="container">
-		<div class="graph-img">
-			<img src="images/iphone-frame.PNG" alt="" />
-			<div class="chart wow bounceIn animated">
-				<canvas id="canvas" height="229" width="469" style="margin-top: 30px;"></canvas>
-					<script>
-							var lineChartData = {
-							labels : ["January","February","March","April","May","June","July"],
-							datasets : [
-								{
-									fillColor : "rgba(220,220,220,0.5)",
-									strokeColor : "rgba(220,220,220,1)",
-									pointColor : "rgba(220,220,220,1)",
-									pointStrokeColor : "#fff",
-									data : [65,59,90,81,56,55,40]
-								},
-								{
-									fillColor : "rgba(151,187,205,0.5)",
-									strokeColor : "rgba(151,187,205,1)",
-									pointColor : "rgba(151,187,205,1)",
-									pointStrokeColor : "#fff",
-									data : [28,48,40,19,96,27,100]
-								}
-							]
-							
-						}
-				
-					var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Line(lineChartData);
-					
-					</script>
-				</div>
-		</div>
-		<h3 class="wow fadeInUp animated">Performance Graph</h3>
-		<p class="wow fadeInUp animated">נתוני הצפייה בפרופיל הינם של משתמשי האפליקציה בלבד נסו בעצמכם ותראו מי צפה בפרופיל שלכם בפייסבוק!</p>
-	</div>
-</div>
-Part Starts here -->
-<div class="footer  wow bounceIn animated">
-	<div class="container">
-		<h3>So ready to give it a try?</h3>
-		
-		<div class="foot-bot">
-			<div class="mail wow fadeInLeft animated" data-wow-delay="0.5s" style="visibility: visible; -webkit-animation: fadeInLeft 0.5s;">
-				<h3>MAIL US</h3>
-				<a href="mailto:example@email.com">hello@198seven.com</a>
-			</div>
-			<div class="social wow fadeInRight animated" data-wow-delay="0.5s" style="visibility: visible; -webkit-animation: fadeInLeft 0.5s;">
-				<h3>Follow us</h3>
-				<ul class="social-list">
-					<li><a href="#" class="fb"></a></li>
-					<li><a href="#" class="tw"></a></li>
-				</ul>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<div class="foot-nav">
-		<ul>
-			<li><p>Copyright &copy; 2015 Template by &nbsp;<a href="http://w3layouts.com">W3layouts</a>&nbsp;&nbsp;</p>
-			</li>
-			<li><a href="#about" class="scroll">About us</a></li>
-			<li><a href="#">Support us</a></li>
-		</ul>
-	</div>
-</div>
+
+
 <!-- Footer Part Ends here -->
 </body>
 </html>
