@@ -154,7 +154,13 @@ form.ap-but p span{
 /*-- Features Part Starts Here --*/
 .features{
 	background:url(../images/banner.jpg)no-repeat;
-	padding:6em 0;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:768px;
+padding:2.5em 0;
 	text-align:center;
 }
 .features-img{
