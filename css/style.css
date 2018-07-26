@@ -39,7 +39,7 @@ body a:hover{
 	color :#ffffff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
-	margin:1em 0 1em 0
+	margin-right: 1em;
 }
 .header-matter h1 span{
 	font-weight:600;
