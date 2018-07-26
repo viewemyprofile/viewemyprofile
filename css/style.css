@@ -544,7 +544,7 @@ ul.social-list li a.tw{
 		left: 13%;
 	}
 	.feature-img img {
-		width: 50%;
+		width: 80%;
 	}
 	.package-grid {
 		width: 100%;
@@ -582,6 +582,9 @@ ul.social-list li a.tw{
 	.usage-top {
 		padding: 1em 1em 1em 0;
 		margin: 0em 0;
+	}
+	.feature-img img {
+		width: 80%;
 	}
 }
 @media(max-width:480px){
@@ -714,7 +717,7 @@ ul.social-list li a.tw{
 		display:block;
 	}
 	.feature-img img {
-		width: 48%;
+		width: 80%;
 	}
 	.ap-stor a img {
 		width: 139px;
